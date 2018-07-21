@@ -1,0 +1,116 @@
+/* Globals */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    /* text-decoration: none; */
+    color: black;
+
+}
+body{
+    background-color: #fafafa;
+}
+/* End Globals */
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    /* padding: 0 30px; */
+    /* padding-right: 200px; */
+}
+
+.navbar .nav-wrapper{
+    /* padding: 0 10vw; */
+    margin: auto;
+    height: 100%;
+    /* background-color: rgb(99, 19, 19); */
+    /* width: 90vw; */
+    /* text-align: center; */
+}
+.list-wrapper{
+    display: inline-block;
+    /* margin: auto; */
+    /* background-color: #fff; */
+}
+.middle-logo{
+    /* position: absolute;
+    left: 50%; */
+    /* color: darkblue; */
+    float: left;
+    /* padding: 1px 0; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 3.5em;
+    height: 40px;
+    padding: 0px 20px;
+    position: relative;
+    top: -3px;
+}
+.link-logo{
+    /* color: green; */
+    /* background-color: #fff; */
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.list{
+    list-style-type: none;
+    /* margin: auto; */
+    /* display: block; */
+}
+
+.list .l-item
+{
+    float: left;
+    margin-top: 14px;
+    padding: 0px 4vw;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+
+.list .l-item .link{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    /* color: #bbb;  */
+    /* background-color: #fff; */
+    padding: 10px;
+}
+
+.l-item .link:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.l-item .link:hover:after {
+    width: 100%;
+    background: rgb(10, 10, 44);
+}
+
+/* .l-item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 1s ease, background-color 1s ease;
+}
+.l-item:hover:after {
+    width: 100%;
+    background: rgb(10, 10, 44);
+} */
+
+
+
+/* End Navbar */
