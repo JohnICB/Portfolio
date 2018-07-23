@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500');
+
+
+
 /* Globals */
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     /* text-decoration: none; */
     color: black;
 
@@ -30,6 +34,18 @@ body{
     /* width: 90vw; */
     /* text-align: center; */
 }
+
+.search
+{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    height: 20px;
+    width: 20px;
+    background: url("../media/search-solid.svg") no-repeat center;
+    transform: rotateY(180deg)
+}
+
 .list-wrapper{
     display: inline-block;
     /* margin: auto; */
@@ -43,7 +59,7 @@ body{
     /* padding: 1px 0; */
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 3em;
     height: 40px;
     padding: 0px 20px;
     position: relative;
@@ -67,20 +83,18 @@ body{
     float: left;
     margin-top: 14px;
     padding: 0px 4vw;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.5em;
-    
 }
 
 
 .list .l-item .link{
     text-decoration: none;
     display: block;
-    width: 100px;
-    /* color: #bbb;  */
-    /* background-color: #fff; */
-    padding: 10px;
+    width: auto;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 12px;
 }
 
 .l-item .link:after {
